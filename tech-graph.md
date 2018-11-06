@@ -9,12 +9,13 @@
 Python:
 - [Flask](http://flask.pocoo.org/) - Фреймворк-каркас для веб-сервера. ([Серия туториалов](https://habr.com/post/193242/))
 - [SQLAlchemy](https://www.sqlalchemy.org/) - ORM, разработанная для использования с SQL базами данных.
-- [Django](https://www.djangoproject.com/) - Фреймворк, в котором есть почти всё и сразу.
+
+   Или
+- [Django](https://www.djangoproject.com/) - Фреймворк, в котором есть почти всё и сразу. (Въехать значительно сложнее, чем во Flask)
 
 JavaScript:
 - [Node.js](https://nodejs.org/en/) - Сервер-интерпретатор JavaScript.
 - [Express.js](https://expressjs.com/ru/) - Простой фреймворк для веб-сервера.
-- [Socket.io](https://socket.io/) - Библиотека для работы с WebSocket.
 
 ~~Backend (PHP) - пожалуйста, не надо!~~
 
@@ -25,24 +26,36 @@ HTML/CSS:
 
 JavaScript:
 - [jQuery](http://jquery.com/) - Популярная библиотека для упрощения работы с веб-страницей.
+
+   Или
 - [Zepto](https://zeptojs.com/) - Более современная jQuery-like библиотека.
 - [Учебник Кантора](http://learn.javascript.ru) - Учебник, по которому учились все :)
 
 ## Mobile
 Кросплатформено, но медленно:
 - [Unity](https://unity3d.com/ru) - Фреймворк для создания игр с встроенным редактором, большим количеством плагинов и мануалами в интернете.
+
+   Или
 - [Flutter](https://flutter.io/) - Фреймворк на [Dart](https://www.dartlang.org/) от Google
+
+   Или
 - [ReactNative](https://facebook.github.io/react-native/) - Фреймворк для написания приложений с помощью JavaScript от Facebook
-- [PhoneGap](https://www.phonegap.com/) - Фреймворк для написания приложений на HTML/CSS + JavaScriptю
+
+   Или
+- [PhoneGap](https://www.phonegap.com/) - Фреймворк для написания приложений на HTML/CSS + JavaScript
 
 ## Desktop
 Python:
 - [Tkinter](https://wiki.python.org/moin/TkInter) - Библиотека для построения графического интерфейса в ООП стиле.
+
+   Или
 - [PyQt](https://pythonworld.ru/gui/pyqt5-firstprograms.html) - Биндинги к известной C++ фреймворку Qt.
 
 JavaScript:
 - [Electron](https://electronjs.org/) - Платформа для разработки десктоп приложений с помощью JavaScrtipt и HTML/CSS. (Github)
-- [NW.js](https://nwjs.io/) - То же, что и первое, но реализация предусматривает портирование сайтов в десктоп приложение больше.
+
+   Или
+- [NW.js](https://nwjs.io/) - То же, что и первое, но реализация предусматривает больше портирование сайтов в десктоп приложения.
 
 C#:
 - [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/) - Фреймворк для написания приложений с графической оболочкой, разработанный Microsoft для приложений под свою операционную систему.

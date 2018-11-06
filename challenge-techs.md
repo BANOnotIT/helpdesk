@@ -11,10 +11,7 @@ Node.js:
 - [LoopBack](https://www.npmjs.com/package/loopback) - "Взрослый" фреймворк для создания RESTful API.
 
 Java:
-_TODO_
-
-C#:
-_TODO_
+- [Spring](https://spring.io/guides) - Фреймворк для создания RESTful API.
 
 Веб-серверы:
 - [NGINX](https://nginx.org/ru/) - Асинхронный веб-сервер.
