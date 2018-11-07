@@ -10,9 +10,6 @@ Python:
 - [Flask](http://flask.pocoo.org/) - Фреймворк-каркас для веб-сервера. ([Серия туториалов](https://habr.com/post/193242/))
 - [SQLAlchemy](https://www.sqlalchemy.org/) - ORM, разработанная для использования с SQL базами данных.
 
-   Или
-- [Django](https://www.djangoproject.com/) - Фреймворк, в котором есть почти всё и сразу. (Въехать значительно сложнее, чем во Flask)
-
 JavaScript:
 - [Node.js](https://nodejs.org/en/) - Сервер-интерпретатор JavaScript.
 - [Express.js](https://expressjs.com/ru/) - Простой фреймворк для веб-сервера.
