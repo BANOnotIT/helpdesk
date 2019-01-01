@@ -139,7 +139,7 @@ web: gunicorn app:flask_app --log-file=- --log-level=debug
 3. Выбираем "Heroku Postgres"
 4. Подтверждаем подключение модуля к нашему приложению
 
-![](https://prnt.sc/m1zr1t)
+![](https://habrastorage.org/webt/dn/re/it/dnreitdelqr0fwihtddo89uly4s.png)
 
 Всё, круть! Нам доступна БД на 10k строк!
 
