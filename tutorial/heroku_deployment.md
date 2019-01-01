@@ -127,8 +127,8 @@ web: gunicorn app:flask_app --log-file=- --log-level=debug
 - `web:` - мы говорим, что эта команда должна запускаться при запросе на сайт `https://<appname>.herokuapp.com`
 - `gunicorn` - собственно запускаем uWSGI сервер
 - `app:flask_app` - в [python-модуле app в переменной flask_app](https://github.com/BANOnotIT/helpdesk-tg-vk-bot/blob/master/app/__init__.py#L10) хранится наше приложение
-- `--logl-level=debug` - выводить все логи, которые важнее/или debug
-- `--log-file=-` - все логи нашего приложения выводить сразу в консоль
+- `--log-level=debug` - выводить все сообщения от программы.
+- `--log-file=-` - все сообщения выводить в консоль
 
 ## А как же БД?
 А теперь давайте к нашему приложению подключим базу данных.
