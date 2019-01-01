@@ -103,7 +103,7 @@ pip3 freeze > requirements.txt
 
 Теперь если мы захотим запустить наш сервер на другом компьютере, мы выполним следующую команду и pip сам установит все необходимое.
 ```bash
-pip3 install -f requirements.txt
+pip3 install -r requirements.txt
 ```
 И всё, у него теперь всё на месте и всё должно работать.
 
