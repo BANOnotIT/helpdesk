@@ -1,1 +1,23 @@
+permalink: none
 theme: jekyll-theme-slate
+
+url: https://banonotit.github.io/helpdesk/
+title: Хелпдеск Школы IT-Решений
+desctiption: Хранилище опыта и знаний хелпдеска и всей ШИР
+
+timezone: Europe/Moscow
+
+defaults:
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+sass:
+  style: compressed
+
+exclude:
+  - local_server.sh
+  - Gemfile
+  - Gemfile.lock
+  - CONTRIBUTING.md
