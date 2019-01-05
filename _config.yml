@@ -3,9 +3,14 @@ theme: jekyll-theme-slate
 
 url: https://banonotit.github.io/helpdesk/
 title: Хелпдеск Школы IT-Решений
-desctiption: Хранилище опыта и знаний хелпдеска и всей ШИР
+description: Сборник статей, туториалов и мануалов
 
 timezone: Europe/Moscow
+lang: ru-RU
+
+plugins:
+  - jekyll-octiocons
+  - jekyll-redirect-from
 
 defaults:
   - scope:
