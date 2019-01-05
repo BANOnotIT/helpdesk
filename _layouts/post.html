@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+{% capture edit-url %}
+{{ site.github.repository_url }}/edit/master/{{ page.path }}
+{% endcapture %}
+
+<nav class="inner">
+    <a href="/">{% octicon chevron-left height:16 %} Главная</a>
+</nav>
+<div id="main_content_wrap" class="outer">
+
+    <header class="post-header inner">
+        <h1 id="post_title">{{page.title}}</h1>
+        <a id="edit_link" target="_blank" title="Предложить изменение" href="{{ edit-url }}">
+            {% octicon pencil height:16 %}
+        </a>
+    </header>
+    <section id="main_content">
+
+        <div class="inner">
+
+            {{ content }}
+        </div>
+    </section>
+</div>
+

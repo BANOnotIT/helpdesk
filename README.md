@@ -1,3 +1,8 @@
+---
+layout: main
+permalink: /
+---
+
 # Доступные материалы
 
 {% for category in site.categories %}
