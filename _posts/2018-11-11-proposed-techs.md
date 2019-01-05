@@ -12,7 +12,7 @@ title: Рекомендованные технологии
 
 ## Backend
 Python:
-- [Flask](http://flask.pocoo.org/) - Фреймворк-каркас для веб-сервера. ([Серия туториалов](https://habr.com/post/193242/))
+- [Flask](http://flask.pocoo.org/) - Фреймворк-каркас для веб-сервера. ([Серия туториалов](https://habr.com/post/346306/))
 - [SQLAlchemy](https://www.sqlalchemy.org/) - ORM, разработанная для использования с SQL базами данных.
 - [Django](https://www.djangoproject.com/) - Фреймворк, в котором есть почти всё и сразу.
 
