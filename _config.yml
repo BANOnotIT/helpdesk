@@ -8,7 +8,7 @@ timezone: Europe/Moscow
 lang: ru-RU
 
 plugins:
-  - jekyll-octiocons
+  - jekyll-octicons
   - jekyll-redirect-from
 
 defaults:
