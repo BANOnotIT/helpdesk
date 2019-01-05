@@ -24,4 +24,4 @@ exclude:
   - local_server.sh
   - Gemfile
   - Gemfile.lock
-  - CONTRIBUTING.md
+  - README.md
