@@ -1,7 +1,7 @@
 
 
 # Java 
-```Java
+```java
 import java.io.*;
 import java.nio.file.*;
 
