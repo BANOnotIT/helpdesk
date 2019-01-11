@@ -155,8 +155,19 @@ web: gunicorn app:flask_app --log-file=- --log-level=debug
 
 - `web:` - мы говорим, что эта команда должна запускаться при запросе на сайт `https://<appname>.herokuapp.com`
 - `gunicorn` - собственно запускаем uWSGI сервер
-- `app:flask_app` - в [python-модуле app в переменной flask_app](https://github.com/BANOnotIT/helpdesk-tg-vk-bot/blob/master/app/__init__.py#L10) хранится наше приложение
+- `app:flask_app` - в [python-модуле app в переменной flask_app](https://github.com/BANOnotIT/helpdesk-tg-vk-bot/blob/master/app/__init__.py#L10) хранится наше приложение. Это путь к нему
 - `--log-level=debug --log-file=-` - настройки логирования. Чтобы в случае падения хоть где-то было написано почему упало.
+
+Давайте поговорим немного о пути к нашему приложению. Он состоит из 2 частей - пути к файлу и переменной, в которой хранится путь к нашему файлу. Путь к файлу - путь как к питоновскому модулю. Если файл исходников приложения имеет расположение в разных папках и путь к нему такой: `someModule/someSubmodule/app.py`, то мы должны просто представить себе, что мы хотим его импортировать. То есть мы будем использовать что-то типа `someModule.someSubmodule.app`.
+
+Теперь к переменным. Разные фреймворки имеют свои способы создать приложение. Например:
+```python
+# Flask
+flask_app = Flask(__name__)  # нам нужно теперь использовать flask_app
+
+# Tornado
+tornado_app = tornado.Web.Application(...)  # нам нужно использовать tornado_app
+```
 
 ## А как же БД?
 А теперь давайте к нашему приложению подключим базу данных.
