@@ -48,7 +48,7 @@ body {
   box-sizing: border-box;
   color: $text-color;
   background: $bg-color;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -64,35 +64,32 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 2.5em;
 }
 
 h2 {
-  //padding-bottom: 10px;
-  font-size: 32px;
-  //border-bottom: 1px dashed $sep-color;
+  font-size: 2em;
   border-bottom: 1px dashed $sep-color;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.8em;
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 1.2em;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: .8em;
 }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 1.2em 0;
 }
 
 article {
@@ -160,7 +157,6 @@ pre, code {
   background-color: #fff !important;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
 
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -268,6 +264,10 @@ nav {
 
 header {
   border-bottom: 1px solid grey;
+
+  h1 {
+    font-size: 2.7em;
+  }
 }
 
 
@@ -293,15 +293,14 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  //color: #fff;
-  font-size: 42px;
+  font-size: 3em;
   font-weight: 700;
   //text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
   color: #444444;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 300;
   border: none;
 }
@@ -341,10 +340,6 @@ Small Device Styles
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
   #downloads {
     display: none;
   }
@@ -354,45 +349,9 @@ Small Device Styles
     max-width: 480px;
   }
 
-  #project_title {
-    font-size: 32px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    font-size: 11px;
-  }
-
 }
 
 @media screen and (max-width: 320px) {
-  body {
-    font-size: 14px;
-  }
-
   #downloads {
     display: none;
   }
@@ -402,38 +361,10 @@ Small Device Styles
     max-width: 320px;
   }
 
-  #project_title {
-    font-size: 28px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 21px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  h4 {
-    font-size: 16px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
 
   code, pre {
     min-width: 240px;
     max-width: 320px;
-    font-size: 11px;
   }
 
 }
