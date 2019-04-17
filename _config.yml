@@ -10,6 +10,7 @@ lang: ru-RU
 plugins:
   - jekyll-octicons
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 defaults:
   - scope:
